@@ -1,0 +1,17 @@
+body {
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.submenu > li {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  border: 13px double red;
+}
