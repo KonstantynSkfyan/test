@@ -13,38 +13,77 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>YogaBloom</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
-      <ul class="menu">
-        <li>
-          Комп'ютери та fuck
-          <ul class="submenu">
-            <li>Процесори</li>
-            <li>monitor</li>
-            <li>Відеокарти</li>
-          </ul>
-        </li>
-        <li>
-          Побутова техніка
-          <ul class="submenu">
-            <li>Холодильники</li>
-            <li>Телевізори</li>
-            <li>Пральні машини</li>
-          </ul>
-        </li>
-        <li>
-          Товари для дому
-          <ul class="submenu">
-            <li>Крісла</li>
-            <li>Матраци</li>
-            <li>Електрокаміни</li>
-          </ul>
-        </li>
-      </ul>
-    </header>
+    <header></header>
+    <!-- /*=====================================hero======================*/ -->
+    <div class="container">
+      <section class="hero">
+        <picture>
+          <source
+            srcset="
+              ./images/placeholder-mob.jpg   1x,
+              ./images/placeholder-mobx2.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./images/placeholder-tab.jpg   1x,
+              ./images/placeholder-tabx2.jpg 2x
+            "
+            media="(min-width: 1336px)"
+          />
+          <source
+            srcset="
+              ./images/placeholder-desktop.jpg   1x,
+              ./images/placeholder-desktopx2.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img src="./images/placeholder-mob.jpg" alt="placeholder" />
+        </picture>
+
+        <h1 class="title">Transform Your Life with Our Yoga Clases</h1>
+        <p class="title-text">
+          Discover the harmony of mind and body through our expertly designed
+          yoga programs. Join a community dedicated to wellness and personal
+          growth.
+        </p>
+        <button class="btn-joy" type="button">Join Now</button>
+        <button class="btn-more" type="button">Learn More</button>
+      </section>
+    </div>
+    <!-- ==================================yoga-classes============================= -->
+    <div class="container">
+      <section class="yoga-classes-title-wrap">
+        <h3 class="yoga-classes-title">Explore</h3>
+        <h2 class="yoga-classes-head">
+          Discover Our Most Popular Yoga Programs
+        </h2>
+        <p class="yoga-classes-text">
+          Join our community and elevate your practice with our expertly
+          designed yoga programs. Each course is tailored to meet various skill
+          levels and personal goals.
+        </p>
+        <ul>
+          <li>
+            <img src="" alt="" />
+            <p></p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <p></p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <p></p>
+          </li>
+        </ul>
+      </section>
+    </div>
     <main></main>
     <footer></footer>
   </body>
